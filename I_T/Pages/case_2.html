@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Case 02</title>
+    <style>
+        body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: white;
+  height: 80px;
+  position: relative;
+  border: 1px solid black;
+  border-bottom: 3px solid black;
+}
+
+header > nav {
+  height: fit-content;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+header > img {
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+header > nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header > nav > ul > li {
+  display: inline;
+  margin: 0 10px;
+  font-family: "Moderustic", sans-serif;
+  color: rgb(70, 67, 67);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #7f7f7f;
+  color: white;
+  position: relative;
+}
+
+.footer-content {
+  text-align: center;
+  padding: 20px 0;
+  font-family: "Moderustic", sans-serif;
+  font-weight: 600;
+}
+
+main {
+  background-color: black;
+  position: relative;
+  display: flex;
+}
+
+aside {
+  background-color: #4c0181;
+  color: white;
+  width: 250px;
+  position: relative;
+  top: -2px;
+  padding: 20px 0;
+}
+
+aside > nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+aside > nav > ul > li {
+  padding: 16px;
+  font-family: "Moderustic", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+aside > nav > ul > li:hover {
+  background-color: #4c0181;
+}
+
+.content {
+  flex: 1;
+  background-color: white;
+  font-family: "monospace", Calibri;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 7px;
+}
+
+.image {
+  position: relative;
+  height: 300px;
+}
+
+main > section > section > div {
+  border: 2px solid lightgreen;
+  border-color: #000000 black #8fec8f #000000;
+  background: url("/Images/image\ copy.png");
+  background-size: cover;
+  background-position: center;
+  width: calc(100% / 3);
+  height: 300px;
+  position: absolute;
+}
+
+#image2 {
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+#image3 {
+  right: 0;
+  margin: auto;
+}
+    </style>
+    <link rel="stylesheet" href="/css/case2.css" />
+  </head>
+  <body>
+    <header>
+      <img src="/Images/image.png" alt="Ijse-logo-image" />
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Services</li>
+          <li>Contacts</li>
+          <li>About Us</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <aside>
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Contacts</li>
+            <li>About Us</li>
+          </ul>
+        </nav>
+      </aside>
+
+      <section class="content">
+        <section class="image">
+          <div id="image1"></div>
+          <div id="image2"></div>
+          <div id="image3"></div>
+        </section>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+          inventore! Provident neque quam natus et iste voluptatum, porro omnis
+          sed magni eum reprehenderit, eos ducimus veritatis. Illo consectetur
+          dolores beatae.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          laudantium sint qui fugiat exercitationem eius error dolorem neque.
+          Temporibus maxime minima iusto dolorum sapiente ut explicabo iure enim
+          recusandae, animi illum quos eveniet. Illo earum accusantium nostrum
+          praesentium. Exercitationem, soluta.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+          inventore! Provident neque quam natus et iste voluptatum, porro omnis
+          sed magni eum reprehenderit, eos ducimus veritatis. Illo consectetur
+          dolores beatae.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          laudantium sint qui fugiat exercitationem eius error dolorem neque.
+          Temporibus maxime minima iusto dolorum sapiente ut explicabo iure enim
+          recusandae, animi illum quos eveniet. Illo earum accusantium nostrum
+          praesentium. Exercitationem, soluta.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+          incidunt nobis sequi sint voluptatibus tenetur iure amet maxime quam,
+          iusto beatae quaerat aliquam recusandae omnis molestias ut illo. Rem
+          ipsum natus et sed earum consectetur fugit, vitae perspiciatis enim
+          voluptatibus magni praesentium obcaecati quasi fuga, quia pariatur
+          placeat accusantium nisi!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
+          at saepe pariatur laudantium aliquam, reprehenderit placeat, possimus
+          minus tenetur velit, voluptatum magnam voluptatibus nam iste.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          laudantium sint qui fugiat exercitationem eius error dolorem neque.
+          Temporibus maxime minima iusto dolorum sapiente ut explicabo iure enim
+          recusandae, animi illum quos eveniet. Illo earum accusantium nostrum
+          praesentium. Exercitationem, soluta.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+          incidunt nobis sequi sint voluptatibus tenetur iure amet maxime quam,
+          iusto beatae quaerat aliquam recusandae omnis molestias ut illo. Rem
+          ipsum natus et sed earum consectetur fugit, vitae perspiciatis enim
+          voluptatibus magni praesentium obcaecati quasi fuga, quia pariatur
+          placeat accusantium nisi!
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">Developed by IJSE</div>
+    </footer>
+  </body>
+  </html>

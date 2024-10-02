@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Case 03</title>
+    <style>
+  * {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.gray-border {
+  width: 50vh;
+  height: 50vh;
+  top: 50%;
+  left: 50%;
+  border: 15px solid gray;
+  position: fixed;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  z-index: 10;
+}
+
+.red-border {
+  width: 100%;
+  height: 100%;
+  border: 15px solid red;
+  border-radius: 50%;
+  position: relative;
+}
+
+.content-of-circle {
+  position: relative;
+  width: 100%;
+  height: 300vh;
+}
+
+.circle-section {
+  width: 45vh;
+  height: 45vh;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.circle-section.purple {
+  background-color: purple;
+  top: 50vh;
+}
+
+.circle-section.blue {
+  background-color: lightskyblue;
+  top: 150vh;
+}
+
+.circle-section.pink {
+  background-color: lightcoral;
+  top: 250vh;
+}
+    </style>
+    <link rel="stylesheet" href="/css/case3.css" />
+  </head>
+
+  <body>
+    <div class="gray-border">
+      <div class="red-border"></div>
+    </div>
+
+    <div class="content-of-circle">
+      <div class="circle-section purple">Hello</div>
+      <div class="circle-section blue">Welcome To</div>
+      <div class="circle-section pink">Institute of Software Engineering</div>
+    </div>
+  </body>
+</html>
